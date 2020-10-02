@@ -5,7 +5,7 @@ class FactoriesService
 {
     /**
      * @param $snack
-     * @return CandiesFactory|ChocolatesFactory|CookiesFactory
+     * @return SimpleFactoryInterface
      * @throws SimpleFactoriesException
      */
     public function buildFactory($snack): SimpleFactoryInterface
